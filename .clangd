@@ -8,4 +8,4 @@ CompileFlags:
     -fstrict-volatile-bitfields,
   ]
 Diagnostics:
-  Suppress: "*"
+  Suppress: "no_member"
