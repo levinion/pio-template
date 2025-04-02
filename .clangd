@@ -1,0 +1,11 @@
+CompileFlags:
+  Add: [
+    -ferror-limit=0
+  ]
+  Remove: [
+    -fno-tree-switch-conversion,
+    -mlongcalls,
+    -fstrict-volatile-bitfields,
+  ]
+Diagnostics:
+  Suppress: "*"
